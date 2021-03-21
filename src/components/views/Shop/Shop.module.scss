@@ -1,0 +1,25 @@
+.root {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+  .textNoAchiv {
+    padding-top: 50px;
+  }
+
+  .achievementBox {
+    padding-bottom: 50px;
+    position: flex;
+    justify-content: center;
+    
+  }
+  .botBox{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 520px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}

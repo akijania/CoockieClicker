@@ -1,0 +1,21 @@
+.root {
+  padding: 100px 0;
+
+  img {
+    width: 200px;
+    cursor: pointer;
+    &:hover {
+      width: 210px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) { 
+  
+  .root img {
+  width: 150px;
+  &:hover {
+    width: 155px;
+  }
+} 
+}
